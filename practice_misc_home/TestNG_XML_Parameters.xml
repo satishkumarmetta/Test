@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HRM_Automation_Suite" >
+  <test name="Login_Parameterisation_Test">
+  <parameter name="url" value="http://apps.qaplanet.in/qahrm/login.php"></parameter>
+  <parameter name="uname" value="qaplanet1"></parameter>
+  <parameter name="pwd" value="user1"></parameter>
+  
+  <classes>
+   	<class name="practice_misc.TestNG_XML_Parameters">  </class> 
+ <!--  <class name="TestNG_XML_Parameters">  </class> -->
+   
+  </classes>
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
